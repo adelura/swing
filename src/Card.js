@@ -181,7 +181,7 @@ const Card = (stack, targetElement, prepend) => {
           view: window
         });
         targetElement.dispatchEvent(fakeClickEvent);
-      }, 0);
+      }, 5);
     };
 
     // "mousedown" event fires late on touch enabled devices, thus listening
